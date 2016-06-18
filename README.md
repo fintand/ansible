@@ -15,11 +15,7 @@ Use Vagrantfile
 * Create droplet if needed, I created 3
 
 ### Install Ansible
-* ```sudo apt-get update```
-* ```sudo apt-get install software-properties-common```
-* ```sudo apt-get install python-software-properties -y```
-* ```sudo apt-add-repository ppa:ansible/ansible```
-* ```sudo apt-get install -y ansible```
+* Installed via Vagrant shell provison 
 
 Backup hosts file
 * ```sudo mv hosts hosts.bak```
