@@ -30,9 +30,10 @@ Backup hosts file
 <IP>
 <IP>
 ```
-### Running playbook
+### Running Ansible
 * ```ansible all -m ping -u root```
-* ansible all -m ping -u root --private-key=~/.ssh/id_ansible
+* ```ansible all -m ping -u root --private-key=~/.ssh/id_ansible```
 
+### Running Playbook
 Run nginx.yml playbook
 * ```ansible-playbook nginx.yml```
